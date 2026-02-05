@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,sans-serif;
+}
+.login-card{
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2);
+    
+
+}
+label{
+    display: block;
+    margin-top: 15px;
+
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    background-color: aqua;
+    color: white;
+    border: none ;
+    border-radius: 4px;
+    cursor: pointer;
+}
