@@ -2,9 +2,9 @@ body{
     margin: 0;
     height: 100vh;
     display: flex ;
-    justify-content: left;
-    align-items: left;
-    font-family: Arial,sans-serif;
+    justify-content: center;
+    align-items: center;
+}
 
 .signup_page{
     background-color: white;
@@ -13,16 +13,23 @@ body{
 
     border-radius: 8px;
     box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2);
+    display: flex ;
+    flex-direction: column;
     
 
 }
-.left{
-    width: 50%;
-}
+
 .right{
-  background-image: url("C:\Users\manpr\Downloads\Growing touch me not.jpg");
-  background-repeat: no-repeat;
-  background-position: right center;
+  flex:1;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 label{
     display: block;
@@ -69,5 +76,4 @@ button:hover {
     color: green;
     font-size: 14px;
     margin-bottom: 10px;
-}
 }
