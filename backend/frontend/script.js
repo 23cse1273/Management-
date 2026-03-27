@@ -1,7 +1,6 @@
-
+console.log("JS loaded");
 
 document.addEventListener("DOMContentLoaded", () => {
-
 
   const currentPage = window.location.pathname.split("/").pop();
 
@@ -14,13 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const form = document.getElementById("loginForm");
-  console.log("Form:", form);
 
   if (form) {
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      console.log("SUBMIT WORKING");
 
       const email = document.getElementById("email").value;
       const password = document.getElementById("password").value;
